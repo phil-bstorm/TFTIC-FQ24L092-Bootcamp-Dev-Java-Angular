@@ -12,7 +12,8 @@ Plus d'exemples:
     <li>Tableau de string: {{ tableauString }}</li>
     <li>Un nombre: {{ unNombre }}</li>
     <li>un objet {{ unObjetAny }}</li>
+    <li>un objet {{ unObjetAny | json }}</li>
     <li>une propriété dans un objet Any: {{ unObjetAny.prenom }} (il n'y pas d'auto-completion)</li>
     <li>une propriété dans un objet typé: {{ unObjetType.prenom }} (il y a de l'auto-completion)</li>
-    <li>une variable <code>null</code> {{ variableNull }}</li>
+    <li>une variable <code>null</code>: *{{ variableNull }}*</li>
 </ul>

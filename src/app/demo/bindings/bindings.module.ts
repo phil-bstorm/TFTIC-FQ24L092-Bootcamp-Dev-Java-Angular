@@ -5,6 +5,7 @@ import {OneWayComponent} from './one-way/one-way.component';
 import {TwoWaysComponent} from './two-ways/two-ways.component';
 import {FormsModule} from "@angular/forms";
 import { EventComponent } from './event/event.component';
+import { PropertyComponent } from './property/property.component';
 
 
 @NgModule({
@@ -12,7 +13,8 @@ import { EventComponent } from './event/event.component';
         BindingsComponent,
         OneWayComponent,
         TwoWaysComponent,
-        EventComponent
+        EventComponent,
+        PropertyComponent
     ],
     imports: [
         CommonModule,

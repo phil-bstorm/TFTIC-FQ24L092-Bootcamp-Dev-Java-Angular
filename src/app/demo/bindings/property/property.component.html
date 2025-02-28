@@ -1,0 +1,8 @@
+<h2>Property binding!</h2>
+
+<button [disabled]="true">Je suis désactivé</button>
+<br>
+<button [disabled]="isDisabled">Je suis désactivé avec une variable</button>
+<br>
+<button (click)="onBtn1Click()" [disabled]="isDisabledBtn1">Bouton 1</button>
+<button (click)="onBtn2Click()" [disabled]="isDisabledBtn2">Bouton 2</button>

@@ -1,0 +1,18 @@
+<h2>One way bindings</h2>
+
+<p>
+    Ma variable monText : {{ monText }}
+</p>
+<p>
+    Je ne peux pas afficher ma variable privée...
+    <!-- {{maVariablePrivee}} ne fonctionne pas car marquée "private" -->
+</p>
+Plus d'exemples:
+<ul>
+    <li>Tableau de string: {{ tableauString }}</li>
+    <li>Un nombre: {{ unNombre }}</li>
+    <li>un objet {{ unObjetAny }}</li>
+    <li>une propriété dans un objet Any: {{ unObjetAny.prenom }} (il n'y pas d'auto-completion)</li>
+    <li>une propriété dans un objet typé: {{ unObjetType.prenom }} (il y a de l'auto-completion)</li>
+    <li>une variable <code>null</code> {{ variableNull }}</li>
+</ul>
